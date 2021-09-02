@@ -1,0 +1,211 @@
+
+
+a{
+	
+	text-decoration: none !important;
+}
+
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background:#111011 !important ;
+	overflow-x: hidden;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+section{
+	min-height: 100vh;
+	padding: 80px 0;
+}
+
+.navbar-brand img{
+	width: 104px;
+	height: 68.34px;
+
+}
+nav{
+	width: 100%;
+	position: relative;
+}
+
+.navbar-nav .nav-item a{
+	font-size: 18px;
+	/* margin-right: 54.6px; */
+	margin-left: 20px;
+	line-height: 30.6px;
+}
+body{
+	overflow-x: hidden;
+}
+
+
+.first-sect{
+	/*padding: 80px 0;*/
+	position: relative;
+	top: 30px;
+	
+}
+
+.first-text{
+	font-size: 30px;
+	line-height: 68px;
+	text-align: center;
+	font-weight: 700;
+	color: #fff;
+}
+
+
+.first-sect-button a{
+	/*padding: 20px 24px;*/
+	background: #000;
+	color: #fff;
+	margin-right: 24px;
+	border-radius: 10px;
+}
+
+
+.first-sect-button a h{
+	font-size: 24px;
+}
+
+.first-sect-button a span{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+.scroll-down{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-bottom: -250px;
+    margin-top: 250px;
+  
+
+	/*margin-top: 140px;*/
+	/*bottom: -5px;*/
+}
+
+/**/
+
+.slide-track {
+            display: flex;
+            height: 124px;
+            width: calc(250px * 14);
+            animation: scroll 40s linear infinite;
+            overflow: hidden;
+        }
+
+        body {
+            background-color: black;
+
+        }
+
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(calc(-250px * 8));
+            }
+        }
+
+        .slide {
+            height: 124px;
+            width: 124px;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            overflow: hidden;
+        }
+
+        .slide img {
+            width: 100%;
+            overflow: hidden;
+            height: 100%;
+            border-radius: 15px !important;
+
+
+        }
+
+        .center-img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .slider {
+            overflow: hidden;
+		
+        }
+		.umu_slider{
+			margin-top: 80px;
+		}
+
+        .sl {
+            margin-top: 100px;
+            margin-bottom: 250px;
+            position: relative;
+        }
+
+        nav {
+            z-index: 15 !important;
+        }
+
+
+
+
+
+
+
+
+
+
+.radius{
+	position: absolute;
+width: 724px;
+height: 724px;
+left: -288.14px;
+top: 40px;
+background: radial-gradient(32.91% 32.91% at 50% 50%, rgba(254, 91, 120, 0.2) 0%, rgba(254, 91, 120, 0) 100%);
+filter: blur(96px);
+}
+.radius1{
+	position: absolute;
+width: 559.75px;
+height: 559.75px;
+left: 118.61px;
+top: 10.13px;
+
+background: radial-gradient(32.91% 32.91% at 50% 50%, rgba(144, 245, 239, 0.15) 0%, rgba(144, 245, 239, 0.045) 100%);
+filter: blur(96px);
+}
+.radius2{
+	position: absolute;
+	width: 559.75px;
+height: 559.75px;
+left: 1136.61px;
+top: 340px;
+
+background: radial-gradient(32.91% 32.91% at 50% 50%, rgba(144, 245, 239, 0.3) 0%, rgba(144, 245, 239, 0.09) 100%);
+filter: blur(96px);
+}
+.radius3{
+	position: absolute;
+width: 634px;
+height: 634px;
+left: 1160.61px;
+top: 23px;
+
+background: radial-gradient(32.91% 32.91% at 50% 50%, rgba(254, 91, 120, 0.3) 0%, rgba(254, 91, 120, 0) 100%);
+filter: blur(96px);
+}
